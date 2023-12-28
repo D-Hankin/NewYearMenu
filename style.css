@@ -1,4 +1,4 @@
-#body {
+body {
     background-image: url("/images/background.jpg");
     background-size: cover;
     background-position: center;
@@ -15,34 +15,49 @@
     width: 100%;
     text-align: center;
     display: block;
+    font-family: 'syne';
 }
+
 #h1 {
-    font-size: 300%;
+    font-size: 200%;
+    width: 95%;
 }
 
 h2 {
-    font-size: 200%;
-}
-
-#topBread {
-    width: 100%;
-}
-
-#topBreadImg {
-    max-width: 100%;
-}
-
-label {
     font-size: 150%;
 }
 
-#bbqDiv, #ketchupDiv {
-    max-width: 47%;
+#chooseMeat, 
+#headers, 
+#classic, 
+#goatsFake, 
+#juggernaught, 
+#kids,
+#mix,
+#email,
+#wedges {
+    width: 100%;
+    margin: auto;
     text-align: center;
-    display: inline-flex;
+    padding: 1%;
+    background: rgba(0, 0, 0, 0.5);  
+    font-family: 'syne';
 }
 
-#bbq, #ketchup {
-    max-width: 100%;
-    padding: 1%;
+table, th, td {
+    width: 95%;
+    text-align: center;
+}
+
+th {
+    font-family: 'syne';
+}
+
+#email {
+    font-size: 150%;
+}
+
+a {
+    text-decoration: none;
+    color: yellow;
 }
